@@ -5,13 +5,13 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Ruby-rubocop-linters-template</b></h3>
+  <h3><b>School Library OOP</b></h3>
 
 </div>
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 School Library <a name="about-project"></a>
 
-**[your_project__name]** is a...
+School Library is a project that simulates a school library. It was built using Ruby and OOP concepts.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -20,11 +20,11 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">Ruby</a></li>
   </ul>
 </details>
 
-<details>
+<!-- <details>
   <summary>Server</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
@@ -36,8 +36,7 @@
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details>
-
+</details> -->
 ### Key Features <a name="key-features"></a>
 
 - **[key_feature_1]**
@@ -48,7 +47,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- Coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,14 +69,14 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:OmarMWarraich/School_Library_OOP.git
 ```
 ### Install
 
 Install this project with:
 
 ```sh
-  cd my-project
+  cd School_Library_OOP
   gem install
 ```
 ### Usage
