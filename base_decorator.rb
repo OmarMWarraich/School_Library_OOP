@@ -1,10 +1,10 @@
 require_relative './nameable'
 
-class Person < Nameable
+class BaseDecorator < Nameable
   #  In the constructor name a parameter nameable and set it to an instance variable @nameable.
 
-  def initialize(nameable)
-    super(correct_name: nameable)
+  def initialize(nameable:)
+    super()
     @nameable = nameable
   end
 
