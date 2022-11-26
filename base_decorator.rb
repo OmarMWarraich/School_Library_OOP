@@ -3,7 +3,7 @@ require_relative './nameable'
 class BaseDecorator < Nameable
   #  In the constructor name a parameter nameable and set it to an instance variable @nameable.
 
-  def initialize(nameable:)
+  def initialize(nameable)
     super()
     @nameable = nameable
   end

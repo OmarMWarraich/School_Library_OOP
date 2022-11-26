@@ -1,24 +1,25 @@
 require_relative './nameable'
+require_relative './capitalize_decorator'
+require_relative './trimmer_decorator'
+require_relative './base_decorator'
 
 class Person < Nameable
-  def initialize(age, parent_permission: true, name: 'unknown')
-    super(correct_name: name)
+  def initialize(age, name = 'unknown', parent_permission: true)
+    super()
     @id = Random.rand(1..1000)
     @name = name
     @age = age
     @parent_permission = parent_permission
+  end
 
-    # Implement the correct_name method that returns the result of the correct_name method of the @nameable.
-
-    # def correct_name
-    #   raise NotImplementedError, 'Please implement the correct_name method'
-    # end
+  def correct_name
+    @name
   end
 
   # Getters
 
-  attr_accessor :@name, :@age
-  attr_reader :@id
+  attr_accessor :name, :age
+  attr_reader :id
 
   # Setters
 
@@ -42,3 +43,12 @@ class Person < Nameable
     end
   end
 end
+
+# testing
+
+person = Person.new(22, 'maximilianus')
+puts person.correct_name
+capitalized_person = CapitalizeDecorator.new(person)
+puts capitalized_person.correct_name
+trimmed_person = TrimmerDecorator.new(person)
+puts trimmed_person.correct_name
