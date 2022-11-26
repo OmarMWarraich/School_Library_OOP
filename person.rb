@@ -2,10 +2,17 @@ require_relative './nameable'
 
 class Person < Nameable
   def initialize(age, parent_permission: true, name: 'unknown')
+    super(correct_name: name)
     @id = Random.rand(1..1000)
     @name = name
     @age = age
     @parent_permission = parent_permission
+
+    # Implement the correct_name method that returns the result of the correct_name method of the @nameable.
+
+    # def correct_name
+    #   raise NotImplementedError, 'Please implement the correct_name method'
+    # end
   end
 
   # Getters
