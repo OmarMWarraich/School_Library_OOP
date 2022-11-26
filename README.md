@@ -5,13 +5,34 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>School Library OOP</b></h3>
+  <h3><b>Microverse README Template</b></h3>
 
 </div>
 
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 # 📖 School Library <a name="about-project"></a>
 
-School Library is a project that simulates a school library. It was built using Ruby and OOP concepts.
+**School Library** is a project that simulates a school library. It was built using Ruby and OOP concepts.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -20,23 +41,23 @@ School Library is a project that simulates a school library. It was built using 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">Ruby</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
 
-<!-- <details>
+<details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://www.tutorialspoint.com/linux_terminal_online.php">Terminal</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="">Coming Soon</a></li>
   </ul>
-</details> -->
+</details>
 ### Key Features <a name="key-features"></a>
 
 - **[key_feature_1]**
@@ -84,7 +105,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  rails server
+  ruby main.rb
 ```
 
 ### Run tests
@@ -92,7 +113,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  ruby test.rb
 ```
 ### Deployment
 
