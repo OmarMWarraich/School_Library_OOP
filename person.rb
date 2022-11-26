@@ -10,6 +10,7 @@ class Person < Nameable
     @name = name
     @age = age
     @parent_permission = parent_permission
+    @rentals = []
   end
 
   def correct_name
@@ -19,9 +20,11 @@ class Person < Nameable
   # Getters
 
   attr_accessor :name, :age
-  attr_reader :id
+  attr_reader :id, :rentals
 
   # Setters
+
+  attr_writer :parent_permission
 
   # Private methods
 
@@ -41,6 +44,10 @@ class Person < Nameable
     else
       false
     end
+  end
+
+  def add_rental(_rental)
+    Rental.new(date, self, person)
   end
 end
 
